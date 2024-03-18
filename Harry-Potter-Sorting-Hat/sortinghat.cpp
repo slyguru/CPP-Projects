@@ -1,3 +1,6 @@
+/* The Sorting Hat is a talking hat at Hogwarts that magically 
+determines which of the four school Houses each new student belongs most to: */
+
 #include <iostream>
 
 int main () {
@@ -126,7 +129,7 @@ if (slytherin > max) {
   
 }
 
-std::cout << house << "!\n";
+std::cout << "\nYou belong to the " << house << " house"<< "!\n\n";
 
 
 }
